@@ -1,29 +1,43 @@
 {
   "name": "ezaki",
-  "version": "0.0.1",
   "description": "Ezaki's CLI",
-  "scripts": {},
-  "bin": {
-    "ezaki": "src/cli.js"
-  },
-  "engine": {
-    "node": ">=8"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/ezaki/ezaki.git"
-  },
-  "keywords": {
-    "ezaki",
-    "cli"
-  },
+  "version": "0.0.2",
   "author": {
     "name": "ezaki",
     "email": "takato.ezaki@gmail.com"
   },
-  "license": "MIT",
+  "bin": {
+    "ezaki": "src/cli.js"
+  },
   "bugs": {
     "url": "https://github.com/ezaki/ezaki/issues"
   },
-  "homepage": "https://github.com/ezaki/ezaki#readme"
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.7.0",
+    "eslint-plugin-standard": "^3.1.0"
+  },
+  "engine": {
+    "node": ">=8"
+  },
+  "eslintConfig": {
+    "extends": "standard"
+  },
+  "homepage": "https://github.com/ezaki/ezaki#readme",
+  "keywords": [
+    "cli",
+    "ezaki"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ezaki/ezaki.git"
+  },
+  "scripts": {
+    "lint": "eslint src/**/*.js",
+    "test": "npm run lint"
+  }
 }
