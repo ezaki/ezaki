@@ -1,0 +1,29 @@
+{
+  "name": "ezaki",
+  "version": "0.0.1",
+  "description": "Ezaki's CLI",
+  "scripts": {},
+  "bin": {
+    "ezaki": "src/cli.js"
+  },
+  "engine": {
+    "node": ">=8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ezaki/ezaki.git"
+  },
+  "keywords": {
+    "ezaki",
+    "cli"
+  },
+  "author": {
+    "name": "ezaki",
+    "email": "takato.ezaki@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ezaki/ezaki/issues"
+  },
+  "homepage": "https://github.com/ezaki/ezaki#readme"
+}
