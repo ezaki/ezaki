@@ -39,5 +39,9 @@
   "scripts": {
     "lint": "eslint src/**/*.js",
     "test": "npm run lint"
+  },
+  "dependencies": {
+    "inquirer": "^5.2.0",
+    "opn": "^5.3.0"
   }
 }
